@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.kevinmcr.smartphones.ReporteCinco"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="10dp"
+    android:gravity="center"
     android:orientation="vertical"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
+    tools:context="com.kevinmcr.smartphones.ReporteCinco"
     tools:layout_editor_absoluteX="8dp"
     tools:layout_editor_absoluteY="8dp">
 
-    <Space
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="19dp" />
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/nokia" />
 
     <TextView
         android:id="@+id/lblTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
         android:text="@string/texto_reporte_5"
         android:textAlignment="center"
         android:textSize="18sp"
@@ -35,7 +37,8 @@
         android:id="@+id/lblResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="-"
+        android:fontFamily="sans-serif"
+        android:text="0.0"
         android:textAlignment="center"
-        android:textSize="14sp" />
+        android:textSize="40sp" />
 </LinearLayout>
