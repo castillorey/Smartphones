@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Smartphones</string>
+    <string name="registro">Registro</string>
+    <string name="marca">Marca</string>
+    <string name="color">Color</string>
+    <string name="precio">Precio</string>
+    <string name="guardar">Guardar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="numero">No.</string>
+    <string name="listado">Listado</string>
+    <string name="reporte_4">Reporte 4</string>
+    <string name="reporte_5">Reporte 5</string>
+    <string name="texto_reporte_4">Número de celulares marca Apple color negro registrados:</string>
+    <string name="texto_reporte_5">Precio promedio de los celulares marca Nokia:</string>
+
+    <string name="samsung">Samsung</string>
+    <string name="apple">Apple</string>
+    <string name="huawei">Huawei</string>
+
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+    <string name="dorado">Dorado</string>
+    <string name="plateado">Plateado</string>
+    <string name="error_precio_vacio">Debe digitar un precio</string>
+    <string name="mensaje_guardado">Celular guardado exitosamente</string>
+
+    <string-array name="opciones_principal">
+        <item>@string/registro</item>
+        <item>@string/listado</item>
+        <item>@string/reporte_4</item>
+        <item>@string/reporte_5</item>
+    </string-array>
+
+    <string-array name="marcas">
+        <item>@string/samsung</item>
+        <item>@string/apple</item>
+        <item>@string/huawei</item>
+    </string-array>
+
+    <string-array name="colores">
+        <item>@string/blanco</item>
+        <item>@string/negro</item>
+        <item>@string/dorado</item>
+        <item>@string/plateado</item>
+    </string-array>
+
+</resources>
